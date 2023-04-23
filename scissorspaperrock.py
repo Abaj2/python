@@ -4,11 +4,7 @@ options = ['scissors', 'paper', 'rock']
 
 computer_choice = random.choice(options)
 
-
-
 user_choice = input('choose scissors paper or rock: ').lower()
-
-
 
 while user_choice not in options:
     user_choice = input('choose scissors paper or rock: ').lower()
